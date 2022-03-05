@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlInSixtySecond">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(LocalDB)\MSSQLlOCALDB:GEV-PC\gev">
+          <Created>2022-02-05T14:40:38.1970252+04:00</Created>
+          <Type>SQL</Type>
+          <Server>(LocalDB)\MSSQLlOCALDB</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="GEV-PC:GEV-PC\gev">
+          <Created>2022-01-30T20:44:32.2146105+04:00</Created>
+          <Type>SQL</Type>
+          <Server>GEV-PC</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>Sample1</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="DirtyRead01.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GEV-PC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GEV-PC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DirtyRead01.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DirtyRead02.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GEV-PC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GEV-PC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DirtyRead02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="find_blocking_transaction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\MSSQLlOCALDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\MSSQLlOCALDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>find_blocking_transaction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO_statistics.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(LocalDB)\MSSQLlOCALDB:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(LocalDB)\MSSQLlOCALDB</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IO_statistics.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
