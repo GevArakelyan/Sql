@@ -1,0 +1,1 @@
+-- https://www.sqlshack.com/using-memory-optimized-tables-to-replace-sql-server-temp-tables-and-table-variables/
